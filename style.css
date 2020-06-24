@@ -12,6 +12,7 @@ body {
 #demo {
   position: absolute;
   top: 60px;
+  width: 100%;
 }
 
 .carousel-inner img {
@@ -31,7 +32,16 @@ body {
 }
 #fifth {
   position: absolute;
-  top: 1550px;
+  top: 1520px;
+}
+
+#fifthNig {
+  position: absolute;
+  top: 1200px;
+}
+#fifthSnack {
+  position: absolute;
+  top: 900px;
 }
 #a {
   color: white;
@@ -45,7 +55,7 @@ body {
 }
 #seventh {
   position: absolute;
-  top: 700px;
+  top: 500px;
   left: 600px;
 }
 .card {
@@ -61,10 +71,16 @@ body {
 }
 #sixth1 {
   position: absolute;
-  top: 300px;
+  top: 180px;
 }
 #seventh1 {
   position: absolute;
-  top: 500px;
+  top: 180px;
   left: 600px;
+}
+
+#nav {
+  position: absolute;
+
+  width: 100%;
 }

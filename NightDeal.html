@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
- 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -17,7 +17,7 @@
     <div id="fourth"><a class="A" href="#" onclick='clicked();'><h2>Sign IN</h2></a></div>
     <div id="third" class="container-fluid">
 
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+    <nav  id="nav"class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
       <a class="navbar-brand" href="./Main.html">FOODIE</a>
       <ul class="navbar-nav">
         <li class="nav-item">
@@ -36,16 +36,19 @@
             <a class="nav-link" href="./NightDeal.html">MidNight Deals</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#" onclick='clicked();'>My Bucket</a>
+            <a class="nav-link" href="#" onclick='loadPage();'>My Bucket</a>
           </li>
       </ul>
     </nav>
     <h1 id="H1">MidNight BUMPER DEALS </h1>
+    <div class="container-fluid content-row">
+    <div class="row">
+        <div class="col-sm-12 col-lg-6">
     <div id="sixth1" class="card" style="width: 18rem">
         <img class="card-img-top" src="./P1.jpg" alt="">
         <div class="card-body">
           <h5 class="card-title">Meal 1</h5>
-          <p class="card-text">Chicken Tikka Pizza is prepared with small cubes of boneless chicken as the key ingredient. Tasty pizza sauce along with chicken pieces, vegetables and cheese mixture gives away a finger-licking chicken pizza</p>
+          <p class="card-text">A dish of Italian origin, consisting of a flat round base of dough baked with a topping of tomatoes and cheese, typically with added meat, fish, or vegetables.Chicken Tikka Pizza is prepared with small cubes of boneless chicken as the key ingredient. Tasty pizza sauce along with chicken pieces</p>
         </div>
       
         <div class="card-body">
@@ -58,7 +61,7 @@
       <img class="card-img-top" src="./download.jpg" alt="">
       <div class="card-body">
         <h5 class="card-title">Meal 2</h5>
-        <p class="card-text">Zinger is a batter-coated, fried patty in a bun, with a slice of lettuce and mayo and cheese. The Zinger sold in Pakistan doesn't have the zing of spice one would associate with the name.</p>
+        <p class="card-text">Zinger is a batter-coated, fried patty in a bun, with a slice of lettuce and mayo and cheese. The Zinger sold in Pakistan doesn't have the zing of spice one would associate with the name.The Zinger achieves its militant mission: beating the "burger boys" by providing a higher quality fried chicken sandwich.</p>
       </div>
     
       <div class="card-body">
@@ -66,9 +69,10 @@
         <a href="#" class="">ADD TO Bucket</a>
       </div>
     </div>
+  </div>
+</div>
   
-  
-  
+</div>
   
   
   
@@ -77,7 +81,7 @@
   
   
       <!-- Footer -->
-  <footer id="fifth" class="page-footer font-small unique-color-dark">
+  <footer id="fifthNig" class="page-footer font-small unique-color-dark">
   
       <div style="background-color: black">
         <div class="container">
