@@ -6,6 +6,3 @@ $(document).ready(function () {
     </table> `);
   });
 });
-function remove() {
-  localStorage.removeItem("Bucket");
-}
