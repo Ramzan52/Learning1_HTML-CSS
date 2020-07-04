@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <title>Foodie</title>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link
@@ -44,7 +45,7 @@
                 <a class="nav-link" href="./NightDeal.html">MidNight Deals</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#" onclick='loadPage()'>My Bucket</a>
+                <a class="nav-link" href="#" onclick='loadPage();'>My Bucket</a>
               </li>
           </ul>
         <button onclick='clicked()' type="button" class="btn btn-outline-primary">Sign In</button>
@@ -59,8 +60,8 @@
           <div class="card-body">
             <h5 class="card-title">Meal 1</h5>
             <p class="card-text">Chicken Tikka Pizza is prepared with small cubes of boneless chicken as the key ingredient. Tasty pizza sauce along with chicken pieces, vegetables and cheese mixture gives away a finger-licking chicken pizza.<</p>
-            <h4>price:1200</h4>
-            <a href="#" class="btn btn-primary">Add to Bucket</a>
+            <h4>price:700</h4>
+            <a href="#" class="btn btn-primary" onclick="addItem('Pizza',700,'18')">Add to Bucket</a>
           </div>
         </div>
         <div class="card" style="width: 18rem;">
@@ -68,8 +69,8 @@
           <div class="card-body">
             <h5 class="card-title">Meal 2</h5>
             <p class="card-text">Zinger is a batter-coated, fried patty in a bun, with a slice of lettuce and mayo and cheese. The Zinger sold in Pakistan doesn't have the zing of spice one would associate with the name.</p>
-            <h4>price:1200</h4>
-            <a href="#" class="btn btn-primary">Add to Bucket</a>
+            <h4>price:1100</h4>
+            <a href="#" class="btn btn-primary"  onclick="addItem('Zinger',1100,'20')">Add to Bucket</a>
           </div>
         </div>
         <div class="card" style="width: 18rem;">
@@ -77,8 +78,8 @@
           <div class="card-body">
             <h5 class="card-title">Meal 2</h5>
             <p class="card-text">Zinger is a batter-coated, fried patty in a bun, with a slice of lettuce and mayo and cheese. The Zinger sold in Pakistan doesn't have the zing of spice one would associate with the name.</p>
-            <h4>price:1200</h4>
-            <a href="#" class="btn btn-primary">Add to Bucket</a>
+            <h4>price:1500</h4>
+            <a href="#" class="btn btn-primary"  onclick="addItem('ZingerX',1500,'3')">Add to Bucket</a>
           </div>
         </div>
       </div>

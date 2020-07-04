@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <title>Foodie</title>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link
@@ -13,6 +14,7 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <script src="./js/script.js"></script>
+    <script src="./js/bucket.js"></script>
   </head>
   <body class="container-fluid">
     <img id="first" class="rounded-circle" src="./logo.png" alt="loading" />
@@ -80,28 +82,28 @@
         <div class="card" style="width: 18rem;">
           <img src="./P1.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Meal 1</h5>
-            <p class="card-text">Chicken Tikka Pizza is prepared with small cubes of boneless chicken as the key ingredient. Tasty pizza sauce along with chicken pieces, vegetables and cheese mixture gives away a finger-licking chicken pizza.<</p>
-            <h4>price:1200</h4>
-            <a href="#" class="btn btn-primary">Add to Bucket</a>
+            <h5 id="aa" class="card-title">Meal 1</h5>
+            <p class="card-text">Chicken Tikka Pizza is prepared with small cubes of boneless chicken as the key ingredient. Tasty pizza sauce along with chicken pieces, vegetables and cheese mixture gives away a finger-licking chicken pizza.</p>
+            <h4>price:1000</h4>
+            <a href="#" class="btn btn-primary"  onclick="addItem('Pizza',1000,'1')">Add to Bucket</a>
           </div>
         </div>
         <div class="card" style="width: 18rem;">
           <img src="./P2.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Meal 2</h5>
+            <h5 id="aa" class="card-title">Meal 2</h5>
             <p class="card-text">Zinger is a batter-coated, fried patty in a bun, with a slice of lettuce and mayo and cheese. The Zinger sold in Pakistan doesn't have the zing of spice one would associate with the name.</p>
             <h4>price:1200</h4>
-            <a href="#" class="btn btn-primary">Add to Bucket</a>
+            <a href="#" class="btn btn-primary" onclick="addItem('Zinger',1200,'2')">Add to Bucket</a>
           </div>
         </div>
         <div class="card" style="width: 18rem;">
           <img src="./P2.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Meal 2</h5>
-            <p class="card-text">Zinger is a batter-coated, fried patty in a bun, with a slice of lettuce and mayo and cheese. The Zinger sold in Pakistan doesn't have the zing of spice one would associate with the name.</p>
-            <h4>price:1200</h4>
-            <a href="#" class="btn btn-primary">Add to Bucket</a>
+            <h5 class="card-title">Meal 3</h5>
+            <p class="card-text">ZingerX is a batter-coated, fried patty in a bun, with a slice of lettuce and mayo and cheese. The Zinger sold in Pakistan doesn't have the zing of spice one would associate with the name.</p>
+            <h4>price:1500</h4>
+            <a href="#" class="btn btn-primary" onclick="addItem('ZingerX',1500,'3')">Add to Bucket</a>
           </div>
         </div>
 </div>
